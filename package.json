@@ -1,0 +1,28 @@
+{
+  "name": "autochef-api",
+  "version": "1.0.0",
+  "description": "What would you like to cook today?",
+  "main": "src/server.js",
+  "repository": "git@github.com:Danomanic/autochef-api.git",
+  "author": "Daniel Pomfret <dan@coly.uk>",
+  "license": "Apache",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "eslint": "^7.27.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.23.3",
+    "jest": "^27.0.1",
+    "superagent": "^6.1.0",
+    "supertest": "^6.1.3"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "monk": "^7.3.4"
+  }
+}
